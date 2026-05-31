@@ -1,0 +1,8 @@
+apache-airflow>=2.7.0
+apache-airflow-providers-google>=10.0.0
+apache-airflow-providers-postgres>=5.0.0
+google-cloud-bigquery>=3.13.0
+google-cloud-bigquery-storage>=2.24.0  # accelerates read_table / load_table_from_dataframe
+pandas>=2.0.0
+pyarrow>=14.0.0  # required by load_table_from_dataframe
+db-dtypes>=1.2.0  # BQ → pandas type mapping

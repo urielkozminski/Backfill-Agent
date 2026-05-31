@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.env
+.venv/
+venv/
+.idea/
+.vscode/
+*.iml
+logs/
+airflow.db
+airflow-webserver.pid
